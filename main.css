@@ -20,12 +20,12 @@ body {
 }
 
 header {
-  text-align: center;
+  	text-align: center;
 	font-family: 'Playfair Display', serif;
 }
 
 header > h1 {
-  color: #37C562;
+  	color: #37C562;
 	font-size: 30px;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -35,7 +35,7 @@ h1 ~ h2 {
 }
 
 p {
-  font-family:helvetica;
+  	font-family:helvetica;
 	margin-top: 0;
 	text-align: justify;
 }
@@ -70,13 +70,13 @@ h3::after {
 /* Specific targeted IDs*/
 
 section #zen-summary > p {
-  text-align: center;
+  	text-align: center;
 	color: #E6EAEA;
 	font-size: 12px;
 }
 
 .page-wrapper {
-  padding: 0 175px 0 110px;
+ 	padding: 0 175px 0 110px;
 	margin: 0 auto;
 	position: relative;
 }
