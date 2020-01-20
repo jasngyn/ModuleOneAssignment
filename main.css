@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* webpage basic elements */
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	background-image: url('https://media.giphy.com/media/l3E6IlIx5f9nVjd84/giphy.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font: 65% Helvetica, sans-serif;
+	line-height: 1.8;
+	color: #000000;
+	margin: 0 auto;
+	padding: 0px;
+	}
+
+header {
+  text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+header > h1 {
+  color: #37C562;
+	font-size: 30px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h1 ~ h2 {
+	color: #5BAEC1;
+}
+
+p {
+  font-family:helvetica;
+	margin-top: 0;
+	text-align: justify;
+}
+
+.h3 {
+	font-family: helvetica;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+a:link {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #88FFC2;
+}
+
+a[href="http://www.mezzoblue.com/zengarden/submit/"] {
+	background-color: #FC9E16;
+}
+
+/* Use of "Heart" emoji for pseudo-element*/
+
+h3::before {
+	content: "♥";
+}
+
+h3::after {
+	content: "♥";
+}
+
+/* Specific targeted IDs*/
+
+section #zen-summary > p {
+  text-align: center;
+	color: #E6EAEA;
+	font-size: 12px;
+}
+
+.page-wrapper {
+  padding: 0 175px 0 110px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#zen-preamble {
+	border-style: double;
+	padding: 5px;
+	position: relative;
+	width: 500px;
+	color: #E6EAEA;
+}
+
+#zen-explanation {
+	border-style: double;
+	padding: 5px;
+	position: relative;
+	width: 500px;
+	float: right;
+	bottom: 218px;
+	color: #E6EAEA;
+}
+
+section #zen-participation, #zen-benefits, #zen-requirements {
+	padding: 5px;
+	position: relative;
+	width: 500px;
+	color: #E6EAEA;
+}
+
+footer {
+	position: relative;
+	float: right;
+	top: 460px;
+	left: 160px;
+	text-decoration: bold;
+	font-size: 16px;
+	color: #3CC597;
+}
+
+/* Navigation Links */
+
+.sidebar {
+	margin-left: 805px;
+	position: relative;
+	bottom: 780px;
+	right: 245px;
+	background-color: rgba(51, 170, 51, .4);
+	padding: 20px;
+}
+
+li + li {
+	color: #48D210;
+}
